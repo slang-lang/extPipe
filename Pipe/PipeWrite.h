@@ -1,6 +1,6 @@
 
-#ifndef Extensions_PipeWrite_h
-#define Extensions_PipeWrite_h
+#ifndef Pipe_PipeWrite_h
+#define Pipe_PipeWrite_h
 
 
 // Library includes
@@ -11,7 +11,6 @@
 // Forward declarations
 
 // Namespace declarations
-using namespace Slang;
 
 
 namespace Pipe {

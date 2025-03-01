@@ -1,6 +1,6 @@
 
-#ifndef Extensions_Pipe_Defines_h
-#define Extensions_Pipe_Defines_h
+#ifndef Pipe_Defines_h
+#define Pipe_Defines_h
 
 
 // Library includes
@@ -21,6 +21,7 @@
 // Forward declarations
 
 // Namespace declarations
+using namespace Slang;
 
 
 namespace Pipe {

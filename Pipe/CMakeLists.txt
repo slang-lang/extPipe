@@ -1,14 +1,14 @@
 INCLUDE(${PROJECT_SOURCE_DIR}/CMake/Base.cmake)
 
 SET(SOURCES
-    PipeExtension.cpp
+    Extension.cpp
     Types.cpp
 )
 
 SET(HEADERS
+    Extension.h
     Defines.h
     PipeClose.h
-    PipeExtension.h
     PipeOpen.h
     PipeRead.h
     PipeWrite.h
@@ -26,4 +26,3 @@ SET(MODULES
 add_include(Externals)
 
 build_shared_lib(SlangPipe "${MODULES}")
-

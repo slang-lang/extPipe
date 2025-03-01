@@ -1,9 +1,10 @@
 
-#ifndef Extensions_PipeClose_h
-#define Extensions_PipeClose_h
+#ifndef Pipe_PipeClose_h
+#define Pipe_PipeClose_h
 
 
 // Library includes
+#include <unistd.h>
 
 // Project includes
 #include "Defines.h"
@@ -11,7 +12,6 @@
 // Forward declarations
 
 // Namespace declarations
-using namespace Slang;
 
 
 namespace Pipe {

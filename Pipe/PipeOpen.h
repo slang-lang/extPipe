@@ -1,9 +1,10 @@
 
-#ifndef Extensions_PipeOpen_h
-#define Extensions_PipeOpen_h
+#ifndef Pipe_PipeOpen_h
+#define Pipe_PipeOpen_h
 
 
 // Library includes
+#include <fcntl.h>
 
 // Project includes
 #include "Defines.h"
@@ -11,7 +12,6 @@
 // Forward declarations
 
 // Namespace declarations
-using namespace Slang;
 
 
 namespace Pipe {
