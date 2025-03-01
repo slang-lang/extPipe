@@ -5,6 +5,7 @@
 
 // Library includes
 #include <fcntl.h>
+#include <limits.h>
 
 // Project includes
 #include "Defines.h"
