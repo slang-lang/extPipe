@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.10)
 
-PROJECT(Slang-Extensions)
+PROJECT(extPipe)
 
 # verbose makefiles
 #SET(CMAKE_VERBOSE_MAKEFILE ON)
