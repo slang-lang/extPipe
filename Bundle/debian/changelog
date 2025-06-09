@@ -1,4 +1,4 @@
-slang-pipe (0.9.3) noble; urgency=medium
+slang-pipe (0.1.2) noble; urgency=medium
 
   * Refactored debian package structure
 

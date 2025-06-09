@@ -17,7 +17,7 @@ namespace Pipe {
 
 
 Extension::Extension()
-: Extensions::AExtension( "extPipe", "0.1.1" )
+: Extensions::AExtension( "extPipe", "0.1.2" )
 {
 	// initialize pipes
 	mPipes[ 0 ] = 0;
