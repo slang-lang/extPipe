@@ -9,4 +9,5 @@ PROJECT(extPipe)
 
 INCLUDE(CMake/Base.cmake)
 
-ADD_SUBDIRECTORY(Pipe)
+ADD_SUBDIRECTORY(Extension)
+
