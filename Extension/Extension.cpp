@@ -3,6 +3,7 @@
 #include "Extension.h"
 
 // Library includes
+#include <cassert>
 
 // Project includes
 #include "PipeClose.h"
@@ -40,6 +41,8 @@ void Extension::initialize( Extensions::ExtensionNamespace* scope )
 
 void Extension::provideMethods( Extensions::ExtensionMethods& methods )
 {
+	assert( methods.empty() );
+
 	methods.push_back( new PipeClose() );
 	methods.push_back( new PipeOpen() );
 	methods.push_back( new PipeRead() );
